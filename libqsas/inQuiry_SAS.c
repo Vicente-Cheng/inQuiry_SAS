@@ -2,6 +2,7 @@
  * Copyright (c) 2004-2012 Douglas Gilbert.
  * Copyright (c) 2013 - Wei-Chung, Vicente, Cheng.
  * All rights reserved.
+ *
  * Use of this source code is governed by a BSD-style
  * license that can be found in the BSD_LICENSE file.
  */
@@ -91,7 +92,6 @@
 #define SAS_EXPANDER_ETC 0x18
 #define SAS_CONNECTOR_ETC 0x19
 
-char            logMessage[MaxLogMessage];
 struct diag_page_code {
     int page_code;
     const char * desc;
